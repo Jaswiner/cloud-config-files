@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: cloud-config
+  cloud:
+    config:
+      name: cloud-config
+      server:
+        git:
+          uri: git@github.com:Jaswiner/cloud-config-files.git
+          username: jaswine
+          password: Jasmine1017@wyz
+
+
+server:
+  port: 6666
